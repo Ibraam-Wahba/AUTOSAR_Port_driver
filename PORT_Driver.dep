@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3886398232</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Common_Macros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\..\TIVA_C_drivers\AUTOSAR_Project\Det.h</file>
+            <file>$PROJ_DIR$\Port_reg.h</file>
+            <file>$PROJ_DIR$\..\New floder\Compiler.h</file>
+            <file>$PROJ_DIR$\..\New floder\Platform_Types.h</file>
+            <file>$PROJ_DIR$\..\TIVA_C_drivers\AUTOSAR_Project\Det.c</file>
+            <file>$PROJ_DIR$\Port.h</file>
+            <file>$PROJ_DIR$\Port.c</file>
+            <file>$PROJ_DIR$\Port_Cfg.h</file>
+            <file>$PROJ_DIR$\Port_PBcfg.c</file>
+            <file>$PROJ_DIR$\Std_Types.h</file>
+            <file>$PROJ_DIR$\..\TIVA_C_drivers\AUTOSAR_Project\tm4c123gh6pm_registers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Port_PBcfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Det.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Port.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\TIVA_C_drivers\AUTOSAR_Project\Det.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Port_PBcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
